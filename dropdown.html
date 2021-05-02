@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="dropdown.css">
+    <title>Dropdown Menu</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="top">
+            <div class="container">
+                <div class="header-wrap">
+                    <!-- Logo-->
+                    <div class="brand">
+                        <h1 class="brand-name"><a href="#" class="logo">Brand <span>Name</span></a></h1> 
+                    </div>
+
+                    <!--Hamburger Menu-->
+                    <div class="hamburger">
+                        <div class="toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <!--Nav Right-->
+                    <div class="nav-right">
+                        <!--Menu-->
+                        <div class="menu">
+                             <ul class="main-menu">
+                                 <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+
+
+                                 <li class="menu-item has-child">
+                                     <a href="#" class="menu-link">Menu 
+                                         <i class="fas fa-caret-down"></i>
+                                     </a>
+                                     <!--Drop Down-->
+                                     <nav class="dropdown">
+                                         <ul class="sub-menu">
+                                             <li class="menu-item"><a href="#" class="manu-link">Link 1</a></li>
+                                             <li class="menu-item"><a href="#" class="manu-link">Link 2</a></li>
+
+                                             <!----Second Lavel Dropdown-->
+                                             <li class="menu-item has-child"><a href="#" class="manu-link">More
+                                                 <i class="fas fa-caret-down"></i>
+                                             </a>
+                                             <nav class="dropdown second">
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item"><a href="#" class="manu-link">Link 1</a></li>
+                                                    <li class="menu-item"><a href="#" class="manu-link">Link 2</a></li>
+                                                    <li class="menu-item"><a href="#" class="manu-link">Link 3</a></li>
+                                                    <!-- Third Label Dropdown-->
+                                                    <li class="menu-item has-child"><a href="#" class="manu-link">More
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </a>
+                                                    <nav class="dropdown second third">
+                                                       <ul class="sub-menu">
+                                                            <li class="menu-item"><a href="#" class="manu-link">Link 1</a></li>
+                                                            <li class="menu-item"><a href="#" class="manu-link">Link 2</a></li>
+                                                            <li class="menu-item"><a href="#" class="manu-link">Link 3</a></li>
+                                                            <li class="menu-item"><a href="#" class="manu-link">Link 4</a></li>
+                                                            <li class="menu-item"><a href="#" class="manu-link">Link 5</a></li>
+                                                            <li class="arrow"></li>
+                                                        </ul>
+                                                     </nav><!--Drop Down-->
+
+                                                    </li><!--Third Label Dropdown-->
+                                                    <li class="menu-item"><a href="#" class="manu-link">Link 5</a></li>
+                                                    <li class="arrow"></li>
+                                                </ul>
+                                             </nav>
+                                             
+                                            </li><!--Second Label Dropdown-->
+                                             <li class="menu-item"><a href="#" class="manu-link">Link 4</a></li>
+                                             <li class="menu-item"><a href="#" class="manu-link">Link 5</a></li>
+                                             <li class="arrow"></li>
+                                         </ul>
+                                      </nav><!--Drop Down-->
+                                 </li>
+
+
+
+                                  <li class="menu-item has-child">
+                                    <a href="#" class="menu-link">Services 
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                    <!--Drop Down-->
+                                    <nav class="dropdown">
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="#" class="manu-link">Link 1</a></li>
+                                            <li class="menu-item"><a href="#" class="manu-link">Link 2</a></li>
+
+                                            <!----Second Lavel Dropdown-->
+                                            <li class="menu-item has-child"><a href="#" class="manu-link">More
+                                                <i class="fas fa-caret-down"></i>
+                                            </a>
+                                            <nav class="dropdown second">
+                                               <ul class="sub-menu">
+                                                   <li class="menu-item"><a href="#" class="manu-link">Link 1</a></li>
+                                                   <li class="menu-item"><a href="#" class="manu-link">Link 2</a></li>
+                                                   <li class="menu-item"><a href="#" class="manu-link">Link 3</a></li>
+                                                   <!-- Third Label Dropdown-->
+                                                   <li class="menu-item has-child"><a href="#" class="manu-link">More
+                                                       <i class="fas fa-caret-down"></i>
+                                                   </a>
+                                                   <nav class="dropdown second third">
+                                                      <ul class="sub-menu">
+                                                           <li class="menu-item"><a href="#" class="manu-link">Link 1</a></li>
+                                                           <li class="menu-item"><a href="#" class="manu-link">Link 2</a></li>
+                                                           <li class="menu-item"><a href="#" class="manu-link">Link 3</a></li>
+                                                           <li class="menu-item"><a href="#" class="manu-link">Link 4</a></li>
+                                                           <li class="menu-item"><a href="#" class="manu-link">Link 5</a></li>
+                                                           <li class="arrow"></li>
+                                                       </ul>
+                                                    </nav><!--Drop Down-->
+
+                                                   </li><!--Third Label Dropdown-->
+                                                   <li class="menu-item"><a href="#" class="manu-link">Link 5</a></li>
+                                                   <li class="arrow"></li>
+                                               </ul>
+                                            </nav>
+                                            
+                                           </li><!--Second Label Dropdown-->
+                                            <li class="menu-item"><a href="#" class="manu-link">Link 4</a></li>
+                                            <li class="menu-item"><a href="#" class="manu-link">Link 5</a></li>
+                                            <li class="arrow"></li>
+                                        </ul>
+                                     </nav><!--Drop Down-->
+                                 </li>
+
+
+
+                                 <li class="menu-item has-child">
+                                     <a href="#" class="menu-link">Pages
+                                         <i class="fas fa-caret-down"></i>
+                                     </a>
+                                     <!--Drop Down-->
+                                     <nav class="dropdown">
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="#" class="manu-link">Link 1</a></li>
+                                            <li class="menu-item"><a href="#" class="manu-link">Link 2</a></li>
+                                            <li class="menu-item"><a href="#" class="manu-link">Link 3</a></li>
+                                            <li class="menu-item"><a href="#" class="manu-link">Link 4</a></li>
+                                            <li class="menu-item"><a href="#" class="manu-link">Link 5</a></li>
+                                            <li class="arrow"></li>
+                                        </ul>
+                                     </nav><!--Drop Down-->
+                                 </li>
+
+
+                                 <li class="menu-item">
+                                     <a href="" class="menu-link">
+                                        contact
+                                     </a>
+                                 </li>
+
+
+                             </ul>
+                        </div><!--Menu-->
+
+                        <!--Login Sign In-->
+                        <div class="log-sign">
+                            <div class="log-in">
+                                <a href="#" class="btn transparent">Log In</a>
+                            </div>
+                            <div class="sign-up">
+                                <a href="#" class="btn solid">Sign Up</a>
+                            </div>
+                        </div><!--Log Sign-->
+
+                    </div><!--Nav Right-->
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="first">
+
+        </section>
+    </main>
+    
+
+  <script>
+const menuItem = document.querySelector('.dropdown').parentNode;
+const toggle = document.querySelector('.toggle');
+const menu = document.querySelector('.nav-right');
+const main = document.querySelector('.main');
+
+
+
+toggle.addEventListener("click", () => {
+    triggre();
+});
+
+function triggre(){
+
+    toggle.classList.toggle('active');
+    menu.classList.toggle('active');
+
+};
+
+main.addEventListener('click', () => {
+    close();
+});
+
+
+function close(){
+    if(toggle.classList.contains('active')){
+        toggle.classList.remove('active');
+    }
+    if(menu.classList.contains('active')){
+        menu.classList.remove('active')
+    }
+}
+
+
+
+  </script>  
+</body>
+</html>
